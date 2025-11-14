@@ -17,7 +17,7 @@
       });
 
       await refreshSession()
-      await navigateTo('/')
+      await navigateTo('/birthdays');
     }
     catch (error) {
       console.error('Login failed:', error);

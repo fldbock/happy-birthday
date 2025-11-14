@@ -20,7 +20,7 @@
       console.log('Signup successful, logging in...');
       await refreshSession()
       console.log('Logged in user:', user.value);
-      await navigateTo('/')
+      await navigateTo('/birthdays')
       console.log('Navigation to home complete.');
     }
     catch (error) {
